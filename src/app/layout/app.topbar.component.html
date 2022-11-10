@@ -1,0 +1,91 @@
+<div class="layout-topbar">
+    <!-- <div class="row flex-nowrap"> -->
+        <a class="layout-topbar-logo" routerLink="">
+            <img src="../../assets/layout/images/Logo.jpg" alt="logo">
+
+        </a>
+
+        <button #menubutton class="p-link layout-menu-button layout-topbar-button"
+            (click)="layoutService.onMenuToggle()">
+            <i class="pi pi-bars"></i>
+        </button>
+
+        <button #topbarmenubutton class="p-link layout-topbar-menu-button layout-topbar-button"
+            (click)="layoutService.showProfileSidebar()">
+            <i class="pi pi-ellipsis-v"></i>
+        </button>
+
+        <div #topbarmenu class="layout-topbar-menu"
+            [ngClass]="{'layout-topbar-menu-mobile-active': layoutService.state.profileSidebarVisible}">
+
+            <button class="p-link layout-topbar-button">
+                <i class="pi pi-user"></i>
+                <span>Profile</span>
+            </button>
+
+        </div>
+    <!-- </div> -->
+  
+</div>
+
+<div class="layout-toolbar menubar">
+    <div class="row flex-nowrap">
+        <div class="col">
+            <div>
+                <p-radioButton name="city" value="Chicago" [(ngModel)]="valRadio" id="city1"></p-radioButton>
+                <label for="city1">Male</label>
+            </div>
+            <div>
+                <p-radioButton name="city" value="Los Angeles" [(ngModel)]="valRadio" id="city2"></p-radioButton>
+                <label for="city2">Female</label>
+            </div>
+        </div>
+        <div class="col">
+            <label>Age</label>
+            <input type="text" pInputText placeholder="Age" class="">
+        </div>
+        <div class="col">
+          
+        </div>
+        <div class="col">
+          
+        </div>
+        <div class="col">
+          
+        </div>
+        <div class="col">
+          
+        </div>
+        <div class="col">
+          
+        </div>
+        <div class="col">
+          
+        </div>
+        <div class="col">
+          
+        </div>
+        <div class="col">
+          
+        </div>
+        <div class="col">
+          
+        </div>
+          <div class="col">
+          
+        </div>
+       
+        <!-- <div class="col-12 md:col-1">
+            <div class="field-radiobutton">
+                <p-radioButton name="city" value="Chicago" [(ngModel)]="valRadio" id="city1"></p-radioButton>
+                <label for="city1">Chicago</label>
+            </div>
+        </div>
+        <div class="col-12 md:col-1">
+            <div class="field-radiobutton">
+                <p-radioButton name="city" value="Los Angeles" [(ngModel)]="valRadio" id="city2"></p-radioButton>
+                <label for="city2">Los Angeles</label>
+            </div>
+        </div> -->
+    </div> 
+</div>
