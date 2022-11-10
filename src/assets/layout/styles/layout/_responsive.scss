@@ -63,14 +63,15 @@
     .layout-wrapper {
         .layout-main-container {
             margin-left: 0;
-            padding-left: 2rem;
+            padding-left: 25.5rem;
         }
 
         .layout-sidebar {
-            transform: translateX(-100%);
+           // transform: translateX(-100%);
             left: 0;
-            top: 0;
-            height: 100vh;
+            //top: 0;
+            // height: 100vh;
+            height: calc(100vh - 14.9rem);
             border-top-left-radius: 0;
             border-bottom-left-radius: 0;
         }
