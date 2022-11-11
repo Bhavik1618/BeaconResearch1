@@ -1,5 +1,6 @@
 .ronded-border {
-  border-radius: 25px;
+  border-radius: 3rem;
+  border: 2px solid rgb(172, 172, 172);
 }
 
 .card-body {
@@ -16,12 +17,16 @@
 }
 
 .pad-card {
-  padding: 0rem 0.5rem;
+  //padding: 0rem 0.5rem;
+  padding: 1rem;
   margin-bottom: 0.5rem;
 }
-
-.pad-card-body {
+.pad-card-main {
   padding: 0rem 1rem;
+}
+.pad-card-body {
+  padding: 0rem;
+  padding-right: 0.5rem;
 }
 
 .top-bar {
@@ -39,9 +44,10 @@
   float: left;
   width: 25%;
   padding: 10px;
-  height: 300px;
+
   /* Should be removed. Only for demonstration */
 }
+
 // @media (min-width: 992px) {
 
 //   .column-card {
@@ -52,13 +58,46 @@
 //     /* Should be removed. Only for demonstration */
 //   }
 // }
-@media (max-width: 991px) {
+@media (max-width: 1600px) and (min-width: 1280px) {
+
+  .colmn-card {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+
+    /* Should be removed. Only for demonstration */
+  }
+}
+
+@media (max-width: 1281px) and (min-width: 990px) {
 
   .colmn-card {
     float: left;
     width: 50%;
     padding: 10px;
-    height: 300px;
+
+    /* Should be removed. Only for demonstration */
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+  .colmn-card {
+    float: left;
+    width: 50%;
+    padding: 10px;
+
+    /* Should be removed. Only for demonstration */
+  }
+}
+
+@media (max-width: 769px) {
+
+  .colmn-card {
+    float: left;
+    width: 100%;
+    padding: 10px;
+
     /* Should be removed. Only for demonstration */
   }
 }

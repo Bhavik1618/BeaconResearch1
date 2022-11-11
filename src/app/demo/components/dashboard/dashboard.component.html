@@ -15,50 +15,51 @@
     </div>
 </div>
 <div class="row card-group">
-    <div class="col-3 pad-card"  *ngFor="let item of griddata">
+    <div class="colmn-card pad-card"  *ngFor="let item of griddata">
         <div class="card ronded-border pad-card">
-            <div class="m-2">
+            <div >
             <img src="../../../../assets/layout/images/test.png" class="card-img-top" alt=""/>
         </div>
-            <div class="card-body pad-card">
+            <div class="card-body pad-card-main">
+                <div class="pl-4 pr-4">
                 <label class="text-muted">Rider Name</label>
               <h5 class="m-0">{{item.riderNamwe}}</h5>
               <label class="text-muted">Annuity Name</label>
               <h5 class="m-0">{{item.annuityName}}</h5>
-           
+            </div>
             <hr>
             <div>
             <div class="row">
                 <label class="col font-italic text-muted text-end pad-card-body">Min / Max Rider Age:</label>
-                <label class="col head-lable pad-card-body ">{{item.riderAge}}</label>
+                <label class="col head-lable p-0 ">{{item.riderAge}}</label>
             </div>
             <div class="row">
                 <label class="col font-italic text-muted text-end pad-card-body">Rider Fee:</label>
-                <label class="col head-lable pad-card-body">{{item.riderFee}}</label>
+                <label class="col head-lable p-0">{{item.riderFee}}</label>
             </div>
             <div class="row">
                 <label class="col font-italic text-muted text-end pad-card-body">Roll-up %:</label>
-                <label class="col head-lable pad-card-body">{{item.rollUp}}</label>
+                <label class="col head-lable p-0">{{item.rollUp}}</label>
             </div>
             <div class="row">
                 <label class="col font-italic text-muted text-end pad-card-body">Roll-up Period:</label>
-                <label class="col head-lable pad-card-body">{{item.rollUpPeriod}}</label>
+                <label class="col head-lable p-0">{{item.rollUpPeriod}}</label>
             </div>
             <div class="row">
                 <label class="col font-italic text-muted text-end pad-card-body">Bonus:</label>
-                <label class="col head-lable pad-card-body">{{item.bonus}}</label>
+                <label class="col head-lable p-0">{{item.bonus}}</label>
             </div>
             <div class="row">
                 <label class="col font-italic text-muted text-end pad-card-body"> Benefit Base: </label>
-                <label class="col head-lable pad-card-body">{{item.benefitBase}}</label>
+                <label class="col head-lable p-0">{{item.benefitBase}}</label>
             </div>
             <div class="row">
                 <label class="col font-italic text-muted text-end pad-card-body">Withdrawal %:</label>
-                <label class="col head-lable pad-card-body">{{item.withdrawal}}</label>
+                <label class="col head-lable p-0">{{item.withdrawal}}</label>
             </div>
             </div>
             <div class="row">
-                <div class="col-10 p-0 pt-2">
+                <div class="col-10 p-0 pt-3">
                     <hr>
                 </div>
                 <div class="col-2 p-0">
@@ -71,7 +72,7 @@
     </div>
         
             <div class="card-bottom text-center">
-              <h4 class="head-lable">{{item.monthly}}</h4>
+              <h4 class="head-lable m-0">{{item.monthly}}</h4>
             </div>
         </div>
     </div>
