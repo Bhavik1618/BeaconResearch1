@@ -1,11 +1,15 @@
 <ul class="layout-menu">
-    <ng-container *ngFor="let item of model; let i = index;">
-        <li app-menuitem *ngIf="!item.separator" [item]="item" [index]="i" [root]="true"></li>
-        <li *ngIf="item.separator" class="menu-separator"></li>
-    </ng-container>
-    <li>
-        <a href="https://www.primefaces.org/primeblocks-ng/#/">
-            <!-- <img src="assets/layout/images/{{layoutService.config.colorScheme === 'light' ? 'banner-primeblocks' : 'banner-primeblocks-dark'}}.png" alt="Prime Blocks" class="w-full mt-3"/> -->
-        </a>
-    </li>
+    <p-tree [value]="files1" [filter]="true" selectionMode="checkbox" (onNodeSelect)="onNodeSelect($event)" filterMode="strict"></p-tree>
+  
 </ul>
+<!-- <ul class="layout-menu">
+    <ng-container>
+    <li class="menu-separator p-2">Grop Name</li>
+    <li class="menu-separator p-2">Company & Product Name</li>
+    <li class="menu-separator p-2">A.M. Best Rating</li>
+    <li class="menu-separator p-2">Surrender Year</li>
+    <li class="menu-separator p-2">Rider Fee</li>
+    <li class="menu-separator p-2">Strategy Fee</li>
+     <li>Grop Name</li> 
+</ng-container>
+</ul> -->

@@ -17,6 +17,8 @@ import { AppFooterComponent } from './app.footer.component';
 import { AppConfigModule } from './config/config.module';
 import { AppSidebarComponent } from "./app.sidebar.component";
 import { AppLayoutComponent } from "./app.layout.component";
+import { TreeDemoRoutingModule } from '../demo/components/uikit/tree/treedemo-routing.module';
+import { TreeModule } from 'primeng/tree';
 @NgModule({
     declarations: [
         AppMenuitemComponent,
@@ -39,6 +41,8 @@ import { AppLayoutComponent } from "./app.layout.component";
         RippleModule,
         RouterModule,
         AppConfigModule,
+        TreeDemoRoutingModule,
+		TreeModule
     ],
     exports: [AppLayoutComponent]
 })

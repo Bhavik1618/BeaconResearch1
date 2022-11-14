@@ -12,6 +12,7 @@ import { GridData } from '../../api/customer';
 })
 export class DashboardComponent implements OnInit, OnDestroy {
     checked: boolean = false;
+    showmodel = false;
     items!: MenuItem[];
 
     products!: Product[];
@@ -21,80 +22,80 @@ export class DashboardComponent implements OnInit, OnDestroy {
     chartOptions: any;
 
     subscription!: Subscription;
-    griddata : GridData[]= [
+    griddata: GridData[] = [
         {
-          riderNamwe: "Lifetime Income Benefit Rider",
-          annuityName: "Advantage Gold",
-          riderAge: "55 - 88",
-          riderFee: "1.25%",
-          rollUp: "6.00%",
-          rollUpPeriod: " 10 Years",
-          bonus: "5.00% Premium Bonus",
-          benefitBase: "$232,000",
-          withdrawal: "4.50%",
-          monthly:"$10,540 Monthly"
+            riderNamwe: "Lifetime Income Benefit Rider",
+            annuityName: "Advantage Gold",
+            riderAge: "55 - 88",
+            riderFee: "1.25%",
+            rollUp: "6.00%",
+            rollUpPeriod: " 10 Years",
+            bonus: "5.00% Premium Bonus",
+            benefitBase: "$232,000",
+            withdrawal: "4.50%",
+            monthly: "$10,540 Monthly"
         },
         {
-          riderNamwe: "Lifetime Income Benefit Rider",
-          annuityName: "Advantage Gold",
-          riderAge: "55 - 88",
-          riderFee: "1.25%",
-          rollUp: "6.00%",
-          rollUpPeriod: " 10 Years",
-          bonus: "5.00% Premium Bonus",
-          benefitBase: "$232,000",
-          withdrawal: "4.50%",
-          monthly:"$10,540 Monthly"
+            riderNamwe: "Lifetime Income Benefit Rider",
+            annuityName: "Advantage Gold",
+            riderAge: "55 - 88",
+            riderFee: "1.25%",
+            rollUp: "6.00%",
+            rollUpPeriod: " 10 Years",
+            bonus: "5.00% Premium Bonus",
+            benefitBase: "$232,000",
+            withdrawal: "4.50%",
+            monthly: "$10,540 Monthly"
         },
         {
-          riderNamwe: "Lifetime Income Benefit Rider",
-          annuityName: "Advantage Gold",
-          riderAge: "55 - 88",
-          riderFee: "1.25%",
-          rollUp: "6.00%",
-          rollUpPeriod: " 10 Years",
-          bonus: "5.00% Premium Bonus",
-          benefitBase: "$232,000",
-          withdrawal: "4.50%",
-          monthly:"$10,540 Monthly"
+            riderNamwe: "Lifetime Income Benefit Rider",
+            annuityName: "Advantage Gold",
+            riderAge: "55 - 88",
+            riderFee: "1.25%",
+            rollUp: "6.00%",
+            rollUpPeriod: " 10 Years",
+            bonus: "5.00% Premium Bonus",
+            benefitBase: "$232,000",
+            withdrawal: "4.50%",
+            monthly: "$10,540 Monthly"
         },
         {
-          riderNamwe: "Lifetime Income Benefit Rider",
-          annuityName: "Advantage Gold",
-          riderAge: "55 - 88",
-          riderFee: "1.25%",
-          rollUp: "6.00%",
-          rollUpPeriod: " 10 Years",
-          bonus: "5.00% Premium Bonus",
-          benefitBase: "$232,000",
-          withdrawal: "4.50%",
-          monthly:"$10,540 Monthly"
+            riderNamwe: "Lifetime Income Benefit Rider",
+            annuityName: "Advantage Gold",
+            riderAge: "55 - 88",
+            riderFee: "1.25%",
+            rollUp: "6.00%",
+            rollUpPeriod: " 10 Years",
+            bonus: "5.00% Premium Bonus",
+            benefitBase: "$232,000",
+            withdrawal: "4.50%",
+            monthly: "$10,540 Monthly"
         },
         {
-          riderNamwe: "Lifetime Income Benefit Rider",
-          annuityName: "Advantage Gold",
-          riderAge: "55 - 88",
-          riderFee: "1.25%",
-          rollUp: "6.00%",
-          rollUpPeriod: " 10 Years",
-          bonus: "5.00% Premium Bonus",
-          benefitBase: "$232,000",
-          withdrawal: "4.50%",
-          monthly:"$10,540 Monthly"
+            riderNamwe: "Lifetime Income Benefit Rider",
+            annuityName: "Advantage Gold",
+            riderAge: "55 - 88",
+            riderFee: "1.25%",
+            rollUp: "6.00%",
+            rollUpPeriod: " 10 Years",
+            bonus: "5.00% Premium Bonus",
+            benefitBase: "$232,000",
+            withdrawal: "4.50%",
+            monthly: "$10,540 Monthly"
         },
         {
-          riderNamwe: "Lifetime Income Benefit Rider",
-          annuityName: "Advantage Gold",
-          riderAge: "55 - 88",
-          riderFee: "1.25%",
-          rollUp: "6.00%",
-          rollUpPeriod: " 10 Years",
-          bonus: "5.00% Premium Bonus",
-          benefitBase: "$232,000",
-          withdrawal: "4.50%",
-          monthly:"$10,540 Monthly"
+            riderNamwe: "Lifetime Income Benefit Rider",
+            annuityName: "Advantage Gold",
+            riderAge: "55 - 88",
+            riderFee: "1.25%",
+            rollUp: "6.00%",
+            rollUpPeriod: " 10 Years",
+            bonus: "5.00% Premium Bonus",
+            benefitBase: "$232,000",
+            withdrawal: "4.50%",
+            monthly: "$10,540 Monthly"
         }
-      ];
+    ];
     constructor(private productService: ProductService, public layoutService: LayoutService) {
         this.subscription = this.layoutService.configUpdate$.subscribe(() => {
             this.initChart();
@@ -105,10 +106,36 @@ export class DashboardComponent implements OnInit, OnDestroy {
         this.initChart();
         this.productService.getProductsSmall().then(data => this.products = data);
 
-        this.items = [
-            { label: 'Add New', icon: 'pi pi-fw pi-plus' },
-            { label: 'Remove', icon: 'pi pi-fw pi-minus' }
-        ];
+        // this.items = [
+        //     { label: 'Add New', icon: 'pi pi-fw pi-plus' },
+        //     { label: 'Remove', icon: 'pi pi-fw pi-minus' }
+        // ];
+        // this.items = [{
+           
+            this.items = [{
+                label: 'Compare',
+                icon: 'bi bi-arrow-left-right',
+                command: () => {
+                    //this.update();
+                }
+            },
+            {
+                label: 'Illstration',
+                icon: '"bi bi-file-richtext-fill',
+                command: () => {
+                   // this.delete();
+                }
+            },
+            {
+                label: 'Product Profile',
+                icon: 'bi bi-files',
+                command: () => {
+                   // this.delete();
+                }
+            }
+            ];
+        //}
+        // ];
     }
 
     initChart() {
@@ -169,10 +196,23 @@ export class DashboardComponent implements OnInit, OnDestroy {
             }
         };
     }
+    onHideShow() {
 
+        this.showmodel = true;
+    }
     ngOnDestroy() {
         if (this.subscription) {
             this.subscription.unsubscribe();
         }
+    }
+    update() {
+        alert('Update test')
+        //this.messageService.add({severity:'success', summary:'Success', detail:'Data Updated'});
+    }
+
+    delete() {
+        alert('delete test')
+
+        // this.messageService.add({severity:'warn', summary:'Delete', detail:'Data Deleted'});
     }
 }

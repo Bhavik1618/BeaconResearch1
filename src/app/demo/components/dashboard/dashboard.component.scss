@@ -38,7 +38,12 @@
 .rotate-icon {
   transform: rotate(90deg);
 }
-
+.p-inputswitch {
+  z-index: 1002 !important;
+  transform-origin: center top !important;
+   top: 370.359px !important;
+   left: 200.406px !important;
+}
 
 .colmn-card {
   float: left;

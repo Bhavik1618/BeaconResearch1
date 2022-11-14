@@ -472,5 +472,9 @@ export class MenusComponent implements OnInit {
             }
         ];
     }
-
+    checkin()
+    {
+        debugger
+        alert('hello');
+    }
 }
