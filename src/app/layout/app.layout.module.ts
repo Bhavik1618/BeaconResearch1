@@ -17,8 +17,15 @@ import { AppFooterComponent } from './app.footer.component';
 import { AppConfigModule } from './config/config.module';
 import { AppSidebarComponent } from "./app.sidebar.component";
 import { AppLayoutComponent } from "./app.layout.component";
+
 import { TreeDemoRoutingModule } from '../demo/components/uikit/tree/treedemo-routing.module';
 import { TreeModule } from 'primeng/tree';
+
+import {InputNumberModule} from 'primeng/inputnumber';
+import { CalendarModule } from "primeng/calendar";
+import { DropdownModule } from 'primeng/dropdown';
+import {SliderModule} from 'primeng/slider';
+
 @NgModule({
     declarations: [
         AppMenuitemComponent,
@@ -27,6 +34,7 @@ import { TreeModule } from 'primeng/tree';
         AppMenuComponent,
         AppSidebarComponent,
         AppLayoutComponent,
+        
     ],
     imports: [
         BrowserModule,
@@ -42,7 +50,13 @@ import { TreeModule } from 'primeng/tree';
         RouterModule,
         AppConfigModule,
         TreeDemoRoutingModule,
-		TreeModule
+		TreeModule,
+        InputNumberModule,
+        CalendarModule,
+        DropdownModule,
+        SliderModule
+        
+
     ],
     exports: [AppLayoutComponent]
 })
