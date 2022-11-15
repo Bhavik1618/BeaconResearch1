@@ -19,6 +19,10 @@ import { AppSidebarComponent } from "./app.sidebar.component";
 import { AppLayoutComponent } from "./app.layout.component";
 import { TreeDemoRoutingModule } from '../demo/components/uikit/tree/treedemo-routing.module';
 import { TreeModule } from 'primeng/tree';
+import {ListboxModule} from 'primeng/listbox';
+import {DropdownModule} from 'primeng/dropdown';
+import {ButtonModule} from 'primeng/button';
+
 @NgModule({
     declarations: [
         AppMenuitemComponent,
@@ -42,7 +46,10 @@ import { TreeModule } from 'primeng/tree';
         RouterModule,
         AppConfigModule,
         TreeDemoRoutingModule,
-		TreeModule
+		TreeModule,
+        ListboxModule,
+        DropdownModule,
+        ButtonModule
     ],
     exports: [AppLayoutComponent]
 })

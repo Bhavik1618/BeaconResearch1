@@ -6231,12 +6231,9 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-datatable .p-datatable-tbody > tr.p-datatable-dragpoint-bottom > td {
   box-shadow: inset 0 -2px 0 0 #6366F1;
 }
-
-
-
-.p-element > div{
+p-menu.p-element > div{
   z-index: 1002 !important;
   transform-origin: center top !important;
-  top: 370.359px !important;
-  left: 200.406px !important;
+  top: 378.359px !important;
+  left: 175.406px !important;
 }
