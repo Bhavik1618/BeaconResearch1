@@ -5,6 +5,345 @@ position: fixed;
 height: 200px;
 width: 100%;
 background: white;
+z-index: 9999;
 }
 
+.layout-topbar{ z-index: 99999;}
 
+.tool-width{ margin-right: -50px;}
+::ng-deep .input{ width: 50px;}
+.spage{ margin-right: -50px;}
+.date{margin-left: -50px;}
+.income{margin-right: -40px;}
+input{width: 35px;}
+.currency{margin-right: -40px;}
+
+@media (max-width: 1280px) and (min-width: 990px){
+    .menubar{
+        z-index:99999;
+    }
+    .layout-topbar{ z-index: 999999;}
+    ::ng-deep .date1 .p-calendar{
+        width: 100px;
+        height: 35px;
+        margin-left: 25px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 100px;
+        height: 35px;
+        margin-right: 4px;
+    }
+    .male{
+        font-size: 12px;
+        
+    }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 15px;
+        width: 15px;
+    }
+    .female{
+        font-size: 12px;
+        margin-left: 4px;
+    }
+    .age .spage{
+        font-size: 10px;
+        padding-top: 13px;
+        padding-left: 10px;
+     }
+     .age p-inputNumber{
+         width: 5px;
+         height: 40px;
+     }
+     .spouseAge, .age1{
+         font-size: 12px;
+     }
+     .spage{
+         margin-left: -30px;
+     }
+     .spage p-inputNumber{
+        width: 5px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .currency p-inputNumber{
+        width: 5px;
+         height: 40px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 60%;
+        height: 35px;
+        margin-right: 10px;
+        font-size: 12px;
+    }
+    .city{
+        margin-right: -40px;
+    }
+    .cont{
+        margin-right: 30px;
+    }
+    .contribution{
+        font-size: 7px;
+    }
+    .income{
+        font-size: 9px;
+    }
+    .currency p-inputNumber{
+        width: 5px;
+        height: 35px;
+        margin-left: -40px;
+    }
+    .period p-inputNumber{
+        width: 3rem;
+        height: 30px;
+        // padding-right: 40px;
+    }
+    .income{
+        padding-left: -70px;
+        // margin-left: -40px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 2rem;
+        height: 1rem;
+        margin-left: 8px;
+        // margin-top: -10px;
+    }
+    h6{
+        font-size: 10px;
+    }
+    .incomeper .monthly{
+        font-size: 10px;
+    }
+    .incomeper .annualy{
+        font-size: 10px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 12px;
+      }
+}
+@media (max-width: 989px) and (min-width: 768px){
+    .menubar{
+        z-index:99999;
+    }
+    .layout-topbar{ z-index: 999999;}
+    .tool-width{
+        margin-left: -20px;
+        padding-left: 10px;
+    }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 7px;
+        width: 7px;
+    }
+    .male{
+        font-size: 6px;  
+        padding-right: 5px;  
+    }
+   
+    .female{
+        font-size: 6px;
+        // margin-left: 4px;
+    }
+    .age .spage{
+        // font-size: 7px;
+        padding-top: 13px;
+        padding-left: 15px;
+     }
+     ::ng-deep .p-inputnumber-input{
+        font-size: 9px;
+     }
+     .age p-inputNumber{
+         height: 33px;
+     }
+     .spouseAge, .age1{
+         font-size: 7px;
+     }
+     .spage{
+         margin-left: -20px;
+     }
+     .spage p-inputNumber{
+        width: 5px;
+        height: 33px;
+        // margin-right: 10px;
+    }
+    ::ng-deep .date1 .p-calendar{
+        width: 60px;
+        height: 27px;
+        margin-left: 68px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 60px;
+        height: 27px;
+        margin-left: 20px;
+    }
+    // ::ng-deep .p-calendar{
+    //     width: 40px;
+    //     height: 40px;
+    // }
+    // ::ng-deep .p-calendar .p-datepicker{
+    //    min-width: 60px;
+    //     min-height: 60px;
+    // }
+    ::ng-deep .p-dropdown{
+        width: 40%;
+        height: 28px;
+        margin-right: 10px;
+        font-size: 7px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 9px;
+      }
+    .city{
+        margin-right: -70px;
+    }
+    .cont{
+        margin-right: 30px;
+    }
+    .contribution{
+        font-size: 6px;
+    }
+    .income{
+        // padding-left: -70px;
+        font-size: 6px;
+    }
+    .currency p-inputNumber{
+        height: 28px;
+        margin-left: -40px;
+    }
+    .period p-inputNumber{
+        height: 25px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 2rem;
+        height: 1rem;
+        margin-left: 8px;
+        // margin-top: 10px;
+    }
+    h6{
+        font-size: 7px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+    }
+    .incomeper .monthly{
+        font-size: 6px;
+    }
+    .incomeper .annualy{
+        font-size: 6px;
+    }
+    ::ng-deep .p-slider{
+        height: 30%;
+    }
+    
+}
+
+@media (max-width: 767px) and (min-width: 689px){
+    .tool-width{
+        margin-left: -20px;
+        // padding-left: 10px;
+    }
+    
+    .male{
+        font-size: 3px;
+    }
+   :host ::ng-deep .radio-style.p-radiobutton {
+    width: 10%;
+    height: 10%;
+  }
+    .female{
+        font-size: 4px;
+        margin-left: 4px;
+    }
+    .age p-inputNumber{
+        height: 33px;width: 40px;
+    }
+     .spouseAge, .age1{
+         font-size: 5px;
+     }
+    //  .spage{
+    //      margin-left: -20px;
+    //  }
+     .spage p-inputNumber{
+        // width: 2rem;
+        height: 33px;
+        width: 40px;
+         margin-right: 10px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 60px;
+        height: 27px;
+        margin-left: 50px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 60px;
+        height: 27px;
+        margin-left: 40px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 90%;
+        height: 28px;
+        margin-right: 10px;
+        margin-right: -35px;
+        font-size: 7px;
+        // padding-left: 20px;
+    }
+
+    .contribution{
+        font-size: 5px;
+    }
+    .income{
+        font-size: 5px;
+    }
+    .currency p-inputNumber{
+        width: 5rem;
+        height: 28px;
+        margin-left: -10px;
+    }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 5px;
+        width: 5px;
+        transform: translateZ(0) scale(0,0);
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 2rem;
+        height: 1rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    // ::ng-deep .p-radiobutton-icon{
+    //     width: 10px;
+    //     height: 10px;
+    // }hi
+    .p-inputswitch-slider{
+        height: 320%;
+        margin-left: -20px;
+    }
+    .period{
+        margin-left: -25px;
+    }
+    h6{
+        font-size: 3px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+    }
+    .incomeper .monthly{
+        font-size: 6px;
+    }
+    .incomeper .annualy{
+        font-size: 6px;
+    }
+    ::ng-deep .p-slider{
+        height: 30%;
+    }
+    .period p-inputNumber{
+        height: 25px;
+        width: 40px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+}

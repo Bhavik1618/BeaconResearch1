@@ -1530,7 +1530,7 @@ p-password.p-password-clearable.p-password-mask .p-password-clear-icon {
   width: 12px;
   height: 12px;
   transition-duration: 0.2s;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
 }
 .p-radiobutton .p-radiobutton-box.p-highlight {
   border-color: #6366F1;

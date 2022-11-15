@@ -17,8 +17,14 @@ import { AppFooterComponent } from './app.footer.component';
 import { AppConfigModule } from './config/config.module';
 import { AppSidebarComponent } from "./app.sidebar.component";
 import { AppLayoutComponent } from "./app.layout.component";
+
 import { TreeDemoRoutingModule } from '../demo/components/uikit/tree/treedemo-routing.module';
 import { TreeModule } from 'primeng/tree';
+
+import {InputNumberModule} from 'primeng/inputnumber';
+import { CalendarModule } from "primeng/calendar";
+import { DropdownModule } from 'primeng/dropdown';
+import {SliderModule} from 'primeng/slider';
 import {ListboxModule} from 'primeng/listbox';
 import {DropdownModule} from 'primeng/dropdown';
 import {ButtonModule} from 'primeng/button';
@@ -31,6 +37,7 @@ import {ButtonModule} from 'primeng/button';
         AppMenuComponent,
         AppSidebarComponent,
         AppLayoutComponent,
+        
     ],
     imports: [
         BrowserModule,
@@ -47,9 +54,18 @@ import {ButtonModule} from 'primeng/button';
         AppConfigModule,
         TreeDemoRoutingModule,
 		TreeModule,
+
+        InputNumberModule,
+        CalendarModule,
+        DropdownModule,
+        SliderModule
+        
+
+
         ListboxModule,
         DropdownModule,
         ButtonModule
+
     ],
     exports: [AppLayoutComponent]
 })
