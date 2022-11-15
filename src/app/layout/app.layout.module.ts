@@ -25,6 +25,9 @@ import {InputNumberModule} from 'primeng/inputnumber';
 import { CalendarModule } from "primeng/calendar";
 import { DropdownModule } from 'primeng/dropdown';
 import {SliderModule} from 'primeng/slider';
+import {ListboxModule} from 'primeng/listbox';
+import {DropdownModule} from 'primeng/dropdown';
+import {ButtonModule} from 'primeng/button';
 
 @NgModule({
     declarations: [
@@ -51,11 +54,17 @@ import {SliderModule} from 'primeng/slider';
         AppConfigModule,
         TreeDemoRoutingModule,
 		TreeModule,
+
         InputNumberModule,
         CalendarModule,
         DropdownModule,
         SliderModule
         
+
+
+        ListboxModule,
+        DropdownModule,
+        ButtonModule
 
     ],
     exports: [AppLayoutComponent]

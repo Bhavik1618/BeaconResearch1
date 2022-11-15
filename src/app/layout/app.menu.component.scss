@@ -1,0 +1,76 @@
+.sidebar-menu {
+    border-top: 1px solid rgb(172, 172, 172);;
+    border-bottom: 1px solid rgb(172, 172, 172);;
+    padding: 10px 30px;
+}
+
+.sidebar-menu-data {
+    border-bottom: 1px solid rgb(172, 172, 172);;
+    padding: 10px 30px;
+}
+
+.col-10 {
+    padding: 0rem !important;
+}
+
+.col-2 {
+    padding: 0rem !important;
+}
+.col-1 {
+    padding: 0rem 1rem !important;
+}
+.col-7 {
+    padding: 0rem 1rem !important;
+}
+.col-4 {
+    padding: 0rem 1rem ;
+}
+.col-5 {
+    padding: 0rem 1rem !important;
+}
+.col-6 {
+    padding: 0rem 1rem ;
+}
+.menu-separator:hover {
+    color: var(--text-color);
+    background-color: var(--surface-hover);
+}
+
+.row {
+    --bs-gutter-x: 0rem !important;
+    /* --bs-gutter-y: 0;*/
+}
+
+.card {
+    background: var(--surface-card);
+    border: 0px !important;
+    padding: 0rem !important;
+    margin-bottom: 0rem !important;
+
+    border-radius: 0px !important;
+}
+
+.card-body {
+    padding: 0% !important;
+}
+
+::ng-deep .p-listbox {
+    background: #ffffff;
+    color: #495057;
+     border: 0px !important; 
+     border-radius: 0px; 
+}
+
+.drp-down{
+    margin-left: 25px;
+}
+.fa-lg{
+    font-size:25px;
+}
+.search-btn{
+    height: 2rem;
+    width: 10rem;
+}
+.text-prime{
+    color: #3b91ed;
+}
