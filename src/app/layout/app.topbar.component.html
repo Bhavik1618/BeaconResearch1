@@ -29,15 +29,23 @@
 </div>
 
     <div class="layout-toolbar menubar">
-        <div class="row flex-nowrap" >
+        <div class="row flex-nowrap scroll" >
             <div class="col pt-5 pl-6 tool-width">
-                <div class="">
-                    <p-radioButton name="male" [value]="true" styleClass="radio-style" [(ngModel)]="valRadio" id="male"></p-radioButton>
-                    <label class=" male" for="male">Male</label><br>
+                <div class="row ml1">
+                    <div class="col-6 genderm pl-2">
+                        <p-radioButton name="male" [value]="true" styleClass="radio-style" value="male" [(ngModel)]="valRadio" id="male"></p-radioButton>
+                    </div>
+                    <div class="col-6 genderml pl-1">
+                        <label class="genderml" for="genderml">Male</label><br>
+                    </div>
                 </div>
-                <div class="">
-                    <p-radioButton name="female" styleClass="radio-style" [value]="false" [(ngModel)]="valRadio" id="female"></p-radioButton>
-                    <label class=" female" for="female">Female</label>
+                <div class="row genderf">
+                    <div class="col-6 income1 pl-2">
+                        <p-radioButton name="income" [value]="false" styleClass="radio-style" value="income" [(ngModel)]="valRadio" id="income"></p-radioButton>
+                    </div>
+                    <div class="col-6 genderfl pl-1 ">
+                        <label class="genderfl" for="genderfl">Female</label>
+                    </div>
                 </div>
             </div>
 
@@ -67,14 +75,22 @@
             <p-dropdown [options]="cities" class="dwopdown" [(ngModel)]="selectedCity" placeholder="lllinois" optionLabel="name" [showClear]="true"></p-dropdown>
             </div>
 
-            <div class="col cont">
-                <div class="">
-                    <p-radioButton name="contribution" [value]="true" styleClass="radio-style" value="contribution" [(ngModel)]="valRadio1" id="contribution"></p-radioButton>
-                    <label class="contribution" for="contribution">Contribution</label><br>
+            <div class="col cont pr-6">
+                <div class="row cont1">
+                    <div class="col-6 contribution1 pl-2">
+                        <p-radioButton name="contribution" [value]="true" styleClass="radio-style" value="contribution" [(ngModel)]="valRadio1" id="contribution"></p-radioButton>
+                    </div>
+                    <div class="col-6 contribution pl-1">
+                        <label class="contribution" for="contribution">Contribution</label><br>
+                    </div>
                 </div>
-                <div class="">
-                    <p-radioButton name="income" [value]="false" styleClass="radio-style" value="income" [(ngModel)]="valRadio1" id="income"></p-radioButton>
-                    <label class="income" for="income">Income</label>
+                <div class="row inc1">
+                    <div class="col-6 income1 pl-2">
+                        <p-radioButton name="income" [value]="false" styleClass="radio-style" value="income" [(ngModel)]="valRadio1" id="income"></p-radioButton>
+                    </div>
+                    <div class="col-6 income pl-1 ">
+                        <label class="income" for="income">Income</label>
+                    </div>
                 </div>
             </div>
 
@@ -83,16 +99,28 @@
             </div>
 
             <div class="col-2 pt-6 incomeper">
-                <label class=" monthly"  for="income">Monthly</label>
-                <p-inputSwitch [(ngModel)]="Monthly"></p-inputSwitch>
-                <label class=" annualy"  for="income">Annualy</label>
+                <div class="row">
+                    <div class="col-4 mon pl-2">
+                        <label class=" monthly"  for="income">Monthly</label>
+                    </div>
+                    <div class="col-4 insw">
+                        <p-inputSwitch [(ngModel)]="Monthly"></p-inputSwitch>
+                    </div>
+                    <div class="col-4 anu">
+                        <label class=" annualy"  for="income">Annualy</label>
+                    </div>
+                </div>
             </div>
             
             <div class="col pb-4 period pr-4">
-                <div class="row">
+                <div class="row period1">
                         <h6>Defferal Period (years) {{val2}}</h6>
+                        <div class="col-6 innum">
                             <p-inputNumber [size]="1" [(ngModel)]="val2"></p-inputNumber>
+                        </div>
+                        <div class="col-6 inslider">
                             <p-slider [(ngModel)]="val2"></p-slider>
+                        </div>
                 </div>
             </div>
         </div> 

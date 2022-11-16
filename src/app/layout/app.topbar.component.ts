@@ -41,6 +41,10 @@ export class AppTopBarComponent {
             {name: 'Test2'},
             {name: 'Test3'}
         ];
+
+        if (this.Monthly == true){
+            // alert('hi');
+        }
     }
     
 }

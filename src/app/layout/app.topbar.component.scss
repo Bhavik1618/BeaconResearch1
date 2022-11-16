@@ -18,332 +18,2419 @@ z-index: 9999;
 input{width: 35px;}
 .currency{margin-right: -40px;}
 
-@media (max-width: 1280px) and (min-width: 990px){
-    .menubar{
-        z-index:99999;
-    }
-    .layout-topbar{ z-index: 999999;}
-    ::ng-deep .date1 .p-calendar{
-        width: 100px;
-        height: 35px;
-        margin-left: 25px;
-    }
-    ::ng-deep .date .p-calendar{
-        width: 100px;
-        height: 35px;
-        margin-right: 4px;
-    }
-    .male{
-        font-size: 12px;
-        
-    }
-    ::ng-deep .p-radiobutton .p-radiobutton-box{
-        height: 15px;
-        width: 15px;
-    }
-    .female{
-        font-size: 12px;
-        margin-left: 4px;
-    }
-    .age .spage{
-        font-size: 10px;
-        padding-top: 13px;
-        padding-left: 10px;
-     }
-     .age p-inputNumber{
-         width: 5px;
-         height: 40px;
-     }
-     .spouseAge, .age1{
-         font-size: 12px;
-     }
-     .spage{
-         margin-left: -30px;
-     }
-     .spage p-inputNumber{
-        width: 5px;
-        height: 40px;
-        margin-right: 10px;
-    }
-    .currency p-inputNumber{
-        width: 5px;
-         height: 40px;
-    }
-    ::ng-deep .p-dropdown{
-        width: 60%;
-        height: 35px;
-        margin-right: 10px;
-        font-size: 12px;
-    }
-    .city{
-        margin-right: -40px;
-    }
-    .cont{
-        margin-right: 30px;
-    }
-    .contribution{
-        font-size: 7px;
-    }
-    .income{
-        font-size: 9px;
-    }
-    .currency p-inputNumber{
-        width: 5px;
-        height: 35px;
-        margin-left: -40px;
-    }
-    .period p-inputNumber{
-        width: 3rem;
-        height: 30px;
-        // padding-right: 40px;
-    }
-    .income{
-        padding-left: -70px;
-        // margin-left: -40px;
-    }
-    ::ng-deep .p-inputswitch .p-inputswitch-slider{
-        width: 2rem;
-        height: 1rem;
-        margin-left: 8px;
-        // margin-top: -10px;
-    }
-    h6{
-        font-size: 10px;
-    }
-    .incomeper .monthly{
-        font-size: 10px;
-    }
-    .incomeper .annualy{
-        font-size: 10px;
-    }
-    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
-        color: #6c757d;
-        font-size: 12px;
-      }
-}
-@media (max-width: 989px) and (min-width: 768px){
-    .menubar{
-        z-index:99999;
-    }
-    .layout-topbar{ z-index: 999999;}
-    .tool-width{
-        margin-left: -20px;
-        padding-left: 10px;
-    }
-    ::ng-deep .p-radiobutton .p-radiobutton-box{
-        height: 7px;
-        width: 7px;
-    }
-    .male{
-        font-size: 6px;  
-        padding-right: 5px;  
-    }
-   
-    .female{
-        font-size: 6px;
-        // margin-left: 4px;
-    }
-    .age .spage{
-        // font-size: 7px;
-        padding-top: 13px;
-        padding-left: 15px;
-     }
-     ::ng-deep .p-inputnumber-input{
-        font-size: 9px;
-     }
-     .age p-inputNumber{
-         height: 33px;
-     }
-     .spouseAge, .age1{
-         font-size: 7px;
-     }
-     .spage{
-         margin-left: -20px;
-     }
-     .spage p-inputNumber{
-        width: 5px;
-        height: 33px;
-        // margin-right: 10px;
-    }
-    ::ng-deep .date1 .p-calendar{
-        width: 60px;
-        height: 27px;
-        margin-left: 68px;
-    }
-    ::ng-deep .date .p-calendar{
-        width: 60px;
-        height: 27px;
-        margin-left: 20px;
-    }
-    // ::ng-deep .p-calendar{
-    //     width: 40px;
-    //     height: 40px;
-    // }
-    // ::ng-deep .p-calendar .p-datepicker{
-    //    min-width: 60px;
-    //     min-height: 60px;
-    // }
-    ::ng-deep .p-dropdown{
-        width: 40%;
-        height: 28px;
-        margin-right: 10px;
-        font-size: 7px;
-    }
-    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
-        color: #6c757d;
-        font-size: 9px;
-      }
-    .city{
-        margin-right: -70px;
-    }
-    .cont{
-        margin-right: 30px;
-    }
-    .contribution{
-        font-size: 6px;
-    }
-    .income{
-        // padding-left: -70px;
-        font-size: 6px;
-    }
-    .currency p-inputNumber{
-        height: 28px;
-        margin-left: -40px;
-    }
-    .period p-inputNumber{
-        height: 25px;
-        font-size: 7px;
-        // padding-right: 40px;
-    }
-    ::ng-deep .p-inputswitch .p-inputswitch-slider{
-        width: 2rem;
-        height: 1rem;
-        margin-left: 8px;
-        // margin-top: 10px;
-    }
-    h6{
-        font-size: 7px;
-    }
-    .incomeper{
-        padding-left: -70px;
-        // font-size: 6px;
-    }
-    .incomeper .monthly{
-        font-size: 6px;
-    }
-    .incomeper .annualy{
-        font-size: 6px;
-    }
-    ::ng-deep .p-slider{
-        height: 30%;
-    }
-    
-}
 
-@media (max-width: 767px) and (min-width: 689px){
+
+@media (max-width: 1920px) {
     .tool-width{
-        margin-left: -20px;
-        // padding-left: 10px;
+        margin-top: -3px;
+        margin-left: -15px;
     }
-    
-    .male{
-        font-size: 3px;
+    .genderml{
+        font-size: 15px;
+        margin-left: -2px;
+        margin-bottom: 5px;
     }
-   :host ::ng-deep .radio-style.p-radiobutton {
-    width: 10%;
-    height: 10%;
-  }
-    .female{
-        font-size: 4px;
-        margin-left: 4px;
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 15px;
+        margin-left: -2px;
     }
     .age p-inputNumber{
-        height: 33px;width: 40px;
+        height: 45px;
+        width: 45px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
     }
      .spouseAge, .age1{
-         font-size: 5px;
+         font-size: 15px;
      }
-    //  .spage{
-    //      margin-left: -20px;
-    //  }
      .spage p-inputNumber{
         // width: 2rem;
-        height: 33px;
-        width: 40px;
-         margin-right: 10px;
+        height: 45px;
+        // width: 50px;
+        margin-right: 2px;
      }
      ::ng-deep .date1 .p-calendar{
-        width: 60px;
-        height: 27px;
-        margin-left: 50px;
-    }
-    ::ng-deep .date .p-calendar{
-        width: 60px;
-        height: 27px;
+        width: 100px;
+        height: 40px;
         margin-left: 40px;
     }
+    ::ng-deep .date .p-calendar{
+        width: 100px;
+        height: 40px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    ::ng-deep .date1 .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
     ::ng-deep .p-dropdown{
-        width: 90%;
-        height: 28px;
+        width: 100%;
+        height: 40px;
         margin-right: 10px;
-        margin-right: -35px;
-        font-size: 7px;
+        margin-right: -40px;
+        font-size: 12px;
         // padding-left: 20px;
     }
-
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 14px;
+        margin-top: 0px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 15px;
+    }
+    ::ng-deep .pi {
+        font-size: .9rem;
+        margin-left: 15px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 53px;
+        // margin-left: 53px;
+        margin-top: -2px;
+    }
     .contribution{
-        font-size: 5px;
+        font-size: 15px;
+        margin-left: -4px;
+        margin-bottom: 8px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
     }
     .income{
-        font-size: 5px;
+        font-size: 15px;
+        margin-left: -4px;
     }
     .currency p-inputNumber{
-        width: 5rem;
-        height: 28px;
-        margin-left: -10px;
+        width: 3rem;
+        height: 40px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -55px;
+    }
+    .mon{
+        margin-left: -33px;
     }
     ::ng-deep .p-radiobutton .p-radiobutton-box{
-        height: 5px;
-        width: 5px;
-        transform: translateZ(0) scale(0,0);
+        height: 20px;
+        width: 20px;
     }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
     ::ng-deep .p-inputswitch .p-inputswitch-slider{
-        width: 2rem;
-        height: 1rem;
+        width: 3.5rem;
+        height: 1.7rem;
         margin-left: 10px;
         margin-top: 5px;
     }
-    // ::ng-deep .p-radiobutton-icon{
-    //     width: 10px;
-    //     height: 10px;
-    // }hi
-    .p-inputswitch-slider{
-        height: 320%;
-        margin-left: -20px;
-    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+        background: #ffffff;
+        width: 1.9rem;
+        height: 1.9rem;
+        left: 0.35rem;
+        margin-left: -.35rem;
+        margin-top: -.900rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+      }
     .period{
-        margin-left: -25px;
+        display: grid;
+        margin-left: -15px;
+    }
+    .period1{
+        margin-top: -21px;
     }
     h6{
-        font-size: 3px;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: -15px;
     }
     .incomeper{
         padding-left: -70px;
         // font-size: 6px;
+        margin-top: -6px;
     }
     .incomeper .monthly{
-        font-size: 6px;
+        font-size: 15px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
     }
     .incomeper .annualy{
+        font-size: 15px;
+        margin-left: -15px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 33px;
+        margin-top: -44px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: -35px;
+        margin-left: -32px;
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 40px;
+        width: 70px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 45px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: -25px;
+    }
+}
+@media (max-width: 1600px) {
+    .tool-width{
+        margin-top: -3px;
+        margin-left: -15px;
+    }
+    .genderml{
+        font-size: 15px;
+        margin-left: -2px;
+        margin-bottom: 5px;
+    }
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .age p-inputNumber{
+        height: 45px;
+        width: 45px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
+    }
+     .spouseAge, .age1{
+         font-size: 15px;
+     }
+     .spage p-inputNumber{
+        // width: 2rem;
+        height: 45px;
+        // width: 50px;
+        margin-right: 2px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 100px;
+        height: 40px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 100px;
+        height: 40px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    ::ng-deep .date1 .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 100%;
+        height: 40px;
+        margin-right: 10px;
+        margin-right: -40px;
+        font-size: 12px;
+        // padding-left: 20px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 14px;
+        margin-top: 0px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 15px;
+    }
+    ::ng-deep .pi {
+        font-size: .9rem;
+        margin-left: 15px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 53px;
+        // margin-left: 53px;
+        margin-top: -2px;
+    }
+    .contribution{
+        font-size: 15px;
+        margin-left: -4px;
+        margin-bottom: 8px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
+    }
+    .income{
+        font-size: 15px;
+        margin-left: -4px;
+    }
+    .currency p-inputNumber{
+        width: 3rem;
+        height: 40px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -55px;
+    }
+    .mon{
+        margin-left: -33px;
+    }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 20px;
+        width: 20px;
+    }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 3.5rem;
+        height: 1.7rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+             background: #ffffff;
+            width: 1.6rem;
+            height: 1.6rem;
+            left: 0.895rem;
+            margin-left: -0.47rem;
+            margin-top: -0.8rem;
+            border-radius: 50%;
+            transition-duration: 0.2s;
+      }
+    .period{
+        display: grid;
+        margin-left: -15px;
+    }
+    .period1{
+        margin-top: -21px;
+    }
+    h6{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+        margin-top: -6px;
+    }
+    .incomeper .monthly{
+        font-size: 15px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
+    }
+    .incomeper .annualy{
+        font-size: 15px;
+        margin-left: -15px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 33px;
+        margin-top: -44px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: -35px;
+        margin-left: -32px;
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 40px;
+        width: 70px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 45px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: -25px;
+    }
+}
+
+@media (max-width: 1424px) {
+    .tool-width{
+        margin-top: -3px;
+        margin-left: -15px;
+    }
+    .genderml{
+        font-size: 15px;
+        margin-left: -2px;
+        margin-bottom: 5px;
+    }
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 15px;
+        margin-left: -2px;
+    }
+    .age p-inputNumber{
+        height: 45px;
+        width: 45px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
+    }
+     .spouseAge, .age1{
+         font-size: 15px;
+     }
+     .spage p-inputNumber{
+        // width: 2rem;
+        height: 45px;
+        // width: 50px;
+        margin-right: 2px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 100px;
+        height: 40px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 100px;
+        height: 40px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    ::ng-deep .date1 .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    //hello//
+    ::ng-deep .p-dropdown{
+        width: 100%;
+        height: 40px;
+        margin-right: 10px;
+        margin-right: -40px;
+        font-size: 12px;
+        // padding-left: 20px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 14px;
+        margin-top: 0px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 15px;
+    }
+    ::ng-deep .pi {
+        font-size: .9rem;
+        margin-left: 15px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 53px;
+        // margin-left: 53px;
+        margin-top: -2px;
+    }
+    .contribution{
+        font-size: 15px;
+        margin-left: -4px;
+        margin-bottom: 8px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
+    }
+    .income{
+        font-size: 15px;
+        margin-left: -4px;
+    }
+    .currency p-inputNumber{
+        width: 3rem;
+        height: 40px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -55px;
+    }
+    .mon{
+        margin-left: -33px;
+    }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 20px;
+        width: 20px;
+    }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 1rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 3.5rem;
+        height: 1.7rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+        background: #ffffff;
+        width: 1.6rem;
+        height: 1.6rem;
+        left: 0.99rem;
+        margin-left: -0.51rem;
+        margin-top: -0.85rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+      }
+    .period{
+        display: grid;
+        margin-left: -15px;
+    }
+    .period1{
+        margin-top: -21px;
+    }
+    h6{
+        font-size: 10px;
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+        margin-top: -6px;
+    }
+    .incomeper .monthly{
+        font-size: 15px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
+    }
+    .incomeper .annualy{
+        font-size: 15px;
+        margin-left: -15px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 33px;
+        margin-top: -44px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: -35px;
+        margin-left: -32px;
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 40px;
+        width: 70px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 45px;
+        height: 40px;
+        margin-top: 20px;
+        margin-left: -25px;
+    }
+}
+
+
+@media (max-width: 1280px) {
+    .tool-width{
+        margin-top: -3px;
+        margin-left: -15px;
+    }
+    .genderml{
+        font-size: 13px;
+        margin-left: -2px;
+        margin-bottom: 5px;
+    }
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 13px;
+        margin-left: -2px;
+    }
+    .age p-inputNumber{
+        height: 45px;
+        width: 45px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
+    }
+     .spouseAge, .age1{
+         font-size: 13px;
+     }
+     .spage p-inputNumber{
+        // width: 2rem;
+        height: 45px;
+        // width: 50px;
+        margin-right: 2px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 100px;
+        height: 40px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 100px;
+        height: 40px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    ::ng-deep .date1 .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 100%;
+        height: 40px;
+        margin-right: 10px;
+        margin-right: -40px;
+        font-size: 12px;
+        // padding-left: 20px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 12px;
+        margin-top: 0px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 15px;
+    }
+    ::ng-deep .pi {
+        font-size: .9rem;
+        margin-left: 15px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 53px;
+        // margin-left: 53px;
+        margin-top: -2px;
+    }
+    .contribution{
+        font-size: 12px;
+        margin-left: -4px;
+        margin-bottom: 8px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
+    }
+    .income{
+        font-size: 12px;
+        margin-left: -4px;
+    }
+    .currency p-inputNumber{
+        width: 3rem;
+        height: 40px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -55px;
+    }
+    .mon{
+        margin-left: -33px;
+    }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 18px;
+        width: 18px;
+    }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: .8.5rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 1.9rem;
+        height: .9rem;
+        margin-left: 10px;
+        margin-top: 5px;
+
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+        background: #ffffff;
+        width: .7rem;
+        height: .7rem;
+        left: 0.35rem;
+        margin-left: -.51rem;
+        margin-top: -.35rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+
+      }
+
+      ::ng-deep .p-inputswitch .p-inputswitch-slider:after{
+        left: 0.35rem;
+        margin-left: -.51rem;
+      }
+
+    .period{
+        display: grid;
+        margin-left: -15px;
+    }
+    .period1{
+        margin-top: -21px;
+    }
+    h6{
+        font-size: 8px;
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+        margin-top: -6px;
+    }
+    .incomeper .monthly{
+        font-size: 13px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
+    }
+    .incomeper .annualy{
+        font-size: 13px;
+        margin-left: -15px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 33px;
+        margin-top: -48px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: -35px;
+        margin-left: -32px;
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 40px;
+        width: 60px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 40px;
+        height: 35px;
+        margin-top: 20px;
+        margin-left: -25px;
+    }
+}
+//....1024....//
+@media (max-width: 1024px) {
+    .tool-width{
+        margin-top: -3px;
+        margin-left: -15px;
+    }
+    .genderml{
+        font-size: 12px;
+        margin-left: -2px;
+        margin-bottom: 5px;
+    }
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 12px;
+        margin-left: -2px;
+    }
+    .age p-inputNumber{
+        height: 45px;
+        width: 45px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
+    }
+     .spouseAge, .age1{
+         font-size: 12px;
+     }
+     .spage p-inputNumber{
+        // width: 2rem;
+        height: 45px;
+        // width: 50px;
+        margin-right: 2px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 100px;
+        height: 40px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 100px;
+        height: 40px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    ::ng-deep .date1 .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 100%;
+        height: 40px;
+        margin-right: 10px;
+        margin-right: -40px;
+        font-size: 12px;
+        // padding-left: 20px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 12px;
+        margin-top: 0px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 15px;
+    }
+    ::ng-deep .pi {
+        font-size: .9rem;
+        margin-left: 15px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 53px;
+        // margin-left: 53px;
+        margin-top: -2px;
+    }
+    .contribution{
+        font-size: 10px;
+        margin-left: -4px;
+        margin-bottom: 8px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
+    }
+    .income{
+        font-size: 10px;
+        margin-left: -4px;
+    }
+    .currency p-inputNumber{
+        width: 3rem;
+        height: 40px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -79px;
+    }
+    .mon{
+        margin-left: -33px;
+    }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 18px;
+        width: 18px;
+    }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: .8.5rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 1.5rem;
+        height: .7rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+        background: #ffffff;
+        width: .7rem;
+        height: .7rem;
+        left: 0.25rem;
+        margin-left: -.51rem;
+        margin-top: -.400rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+        
+      }
+    .period{
+        display: grid;
+        margin-left: -15px;
+    }
+    .period1{
+        margin-top: -21px;
+    }
+    h6{
+        font-size: 7px;
+        margin-top: 20px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+        margin-top: -6px;
+    }
+    .incomeper .monthly{
+        font-size: 12px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
+    }
+    .incomeper .annualy{
+        font-size: 12px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 30px;
+        margin-top: -43px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: 18px;
+        margin-left: -85px;
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 40px;
+        width: 60px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 35px;
+        height: 35px;
+        margin-top: 20px;
+    }
+}
+
+//....854....//
+@media (max-width: 854px) {
+    .tool-width{
+        margin-top: -3px;
+        margin-left: -15px;
+    }
+    .genderml{
+        font-size: 10px;
+        margin-left: -2px;
+    }
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 10px;
+        margin-left: -2px;
+    }
+    .age p-inputNumber{
+        height: 38px;
+        width: 38px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
+    }
+     .spouseAge, .age1{
+         font-size: 10px;
+     }
+     .spage p-inputNumber{
+        // width: 2rem;
+        height: 38px;
+        width: 38px;
+        margin-right: 2px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 70px;
+        height: 30px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 70px;
+        height: 30px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    ::ng-deep .date1 .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 45px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 100%;
+        height: 30px;
+        margin-right: 10px;
+        margin-right: -40px;
+        font-size: 9px;
+        // padding-left: 20px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 10px;
+        margin-top: -3px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 10px;
+    }
+    ::ng-deep .pi {
+        font-size: .7rem;
+        margin-left: 15px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 53px;
+        // margin-left: 53px;
+        margin-top: -2px;
+    }
+    .contribution{
+        font-size: 9px;
+        margin-left: -4px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
+    }
+    .income{
+        font-size: 9px;
+        margin-left: -4px;
+    }
+    .currency p-inputNumber{
+        width: 5rem;
+        height: 27px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -79px;
+    }
+    .mon{
+        margin-left: -33px;
+    }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: .7rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 12px;
+        width: 12px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 1.5rem;
+        height: .7rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+        background: #ffffff;
+        width: .7rem;
+        height: .7rem;
+        left: 0.25rem;
+        margin-left: -.51rem;
+        margin-top: -.400rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+      }
+    .period{
+        display: grid;
+        margin-left: -15px;
+    }
+    .period1{
+        margin-top: -21px;
+    }
+    h6{
         font-size: 6px;
+        margin-top: 20px;
     }
-    ::ng-deep .p-slider{
-        height: 30%;
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+        margin-top: -6px;
     }
-    .period p-inputNumber{
-        height: 25px;
+    .incomeper .monthly{
+        font-size: 9px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
+    }
+    .incomeper .annualy{
+        font-size: 9px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 38px;
+        margin-top: -45px;
+        margin-right: 22px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: 13px;
+        margin-left: -88px;
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 20px;
         width: 40px;
         font-size: 7px;
         // padding-right: 40px;
     }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 35px;
+        margin-top: 20px;
+    }
+}
+//....731....//
+@media (max-width: 732px){
+    .tool-width{
+        margin-top: -3px;
+
+    }
+    .genderml{
+        font-size: 10px;
+        margin-left: -2px;
+    }
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 10px;
+        margin-left: -2px;
+    }
+    .age p-inputNumber{
+        // height: 30px;
+        width: 38px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
+    }
+     .spouseAge, .age1{
+         font-size: 10px;
+     }
+     .spage p-inputNumber{
+        // width: 2rem;
+        // height: 30px;
+        width: 38px;
+        margin-right: 2px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 50px;
+        height: 26px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 50px;
+        height: 26px;
+        margin-left: 30px;
+    }
+    ::ng-deep .date .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 33px;
+    }
+    ::ng-deep .date1 .p-calendar-w-btn .p-inputtext {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        width: 33px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 85%;
+        height: 27px;
+        margin-right: 10px;
+        margin-right: -40px;
+        font-size: 8px;
+        // padding-left: 20px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 9px;
+        margin-top: -5px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 9px;
+    }
+    ::ng-deep .pi {
+        font-size: .5rem;
+        margin-left: 5px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 53px;
+        // margin-left: 53px;
+        margin-top: -2px;
+    }
+    .contribution{
+        font-size: 9px;
+        margin-left: -4px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
+    }
+    .income{
+        font-size: 9px;
+        margin-left: -4px;
+    }
+    .currency p-inputNumber{
+        width: 5rem;
+        height: 27px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -79px;
+    }
+    .mon{
+        margin-left: -33px;
+    }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: .7rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 12px;
+        width: 12px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 1.5rem;
+        height: .7rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+        background: #ffffff;
+        width: .7rem;
+        height: .7rem;
+        left: 0.25rem;
+        margin-left: -.51rem;
+        margin-top: -.400rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+      }
+    .period{
+        display: grid;
+        margin-left: -15px;
+    }
+    .period1{
+        margin-top: -21px;
+    }
+    h6{
+        font-size: 7px;
+        margin-top: 20px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+        margin-top: -6px;
+    }
+    .incomeper .monthly{
+        font-size: 9px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
+    }
+    .incomeper .annualy{
+        font-size: 9px;
+        margin-left: 7px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 43px;
+        margin-top: -48px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: 7px;
+        margin-left: -93px;
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 20px;
+        width: 40px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 35px;
+        margin-top: 20px;
+    }
+      .scroll{
+        width: 100%;
+        overflow-x: scroll;
+      }
+}
+//....640....//
+@media (max-width: 640px){
+    .tool-width{
+        margin-top: 0px;
+    }
+    .genderml{
+        font-size: 7px;
+        margin-left: -3px;
+    }
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 7px;
+        margin-left: -3px;
+    }
+    .age p-inputNumber{
+        height: 25px;
+        width: 38px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
+    }
+     .spouseAge, .age1{
+         font-size: 7px;
+     }
+     .spage p-inputNumber{
+        // width: 2rem;
+        height: 25px;
+        width: 38px;
+        margin-right: 2px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 50px;
+        height: 24px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 50px;
+        height: 24px;
+        margin-left: 30px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 80%;
+        height: 24px;
+        margin-right: 10px;
+        margin-right: -40px;
+        font-size: 8px;
+        // padding-left: 20px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 8px;
+        margin-top: -5px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 7px;
+    }
+    ::ng-deep .pi {
+        font-size: .4rem;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 50px;
+        // margin-left: 53px;
+        margin-top: 0px;
+    }
+    .contribution{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
+    }
+    .income{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    .currency p-inputNumber{
+        width: 5rem;
+        height: 24px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -79px;
+    }
+    .mon{
+        margin-left: -33px;
+    }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: .6rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 10px;
+        width: 10px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 1.5rem;
+        height: .7rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+        background: #ffffff;
+        width: .7rem;
+        height: .7rem;
+        left: 0.25rem;
+        margin-left: -.51rem;
+        margin-top: -.400rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+      }
+    .period{
+        display: grid;
+        margin-left: -15px;
+    }
+    h6{
+        font-size: 5px;
+        margin-top: 20px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+        margin-top: -6px;
+    }
+    .incomeper .monthly{
+        font-size: 6px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
+    }
+    .incomeper .annualy{
+        font-size: 6px;
+        margin-left: 7px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 43px;
+        margin-top: -43px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: 6px;
+        margin-left: -88px
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 20px;
+        width: 40px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+        margin-top: -5px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 35px;
+        margin-top: 20px;
+    }
+      .scroll{
+        width: 100%;
+        overflow-x: scroll;
+    // background: transparent;
+      }
+}
+////////514/////////////
+@media (max-width: 513px){
+    .tool-width{
+        margin-top: 0px;
+    }
+    .genderml{
+        font-size: 7px;
+        margin-left: -3px;
+    }
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 7px;
+        margin-left: -3px;
+    }
+    .age p-inputNumber{
+        height: 25px;
+        width: 38px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
+    }
+     .spouseAge, .age1{
+         font-size: 7px;
+     }
+     .spage p-inputNumber{
+        // width: 2rem;
+        height: 25px;
+        width: 38px;
+        margin-right: 2px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 50px;
+        height: 24px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 50px;
+        height: 24px;
+        margin-left: 30px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 80%;
+        height: 24px;
+        margin-right: 10px;
+        margin-right: -40px;
+        font-size: 8px;
+        // padding-left: 20px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 8px;
+        margin-top: -5px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 7px;
+    }
+    ::ng-deep .pi {
+        font-size: .4rem;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 50px;
+        // margin-left: 53px;
+        margin-top: 0px;
+    }
+    .contribution{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
+    }
+    .income{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    .currency p-inputNumber{
+        width: 5rem;
+        height: 24px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -79px;
+    }
+    .mon{
+        margin-left: -33px;
+    }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: .6rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 10px;
+        width: 10px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 1.5rem;
+        height: .7rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+        background: #ffffff;
+        width: .7rem;
+        height: .7rem;
+        left: 0.25rem;
+        margin-left: -.51rem;
+        margin-top: -.400rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+      }
+    .period{
+        display: grid;
+        margin-left: -15px;
+    }
+    h6{
+        font-size: 5px;
+        margin-top: 20px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+        margin-top: -6px;
+    }
+    .incomeper .monthly{
+        font-size: 6px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
+    }
+    .incomeper .annualy{
+        font-size: 6px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 43px;
+        margin-top: -39px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: 16px;
+        margin-left: -76px;
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 20px;
+        width: 40px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 25px;
+        height: 25px;
+        margin-top: 20px;
+    }
+      .scroll{
+        width: 100%;
+        overflow-x: scroll;
+      }
+}
+
+
+@media (max-width: 427px){
+    .tool-width{
+        margin-top: 0px;
+    }
+    .genderml{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    .age p-inputNumber{
+        height: 25px;
+        width: 38px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
+    }
+     .spouseAge, .age1{
+         font-size: 7px;
+     }
+     .spage p-inputNumber{
+        // width: 2rem;
+        height: 25px;
+        width: 38px;
+        margin-right: 2px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 50px;
+        height: 24px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 50px;
+        height: 24px;
+        margin-left: 30px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 80%;
+        height: 24px;
+        margin-right: 10px;
+        margin-right: -40px;
+        font-size: 8px;
+        // padding-left: 20px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 7px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 7px;
+    }
+    ::ng-deep .pi {
+        font-size: .6rem;
+        margin-left: -4px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 50px;
+        // margin-left: 53px;
+        margin-top: 0px;
+    }
+    .contribution{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
+    }
+    .income{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    .currency p-inputNumber{
+        width: 5rem;
+        height: 24px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -79px;
+    }
+    .mon{
+        margin-left: -33px;
+    }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: .6rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 8px;
+        width: 8px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 1.5rem;
+        height: .7rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+        background: #ffffff;
+        width: .7rem;
+        height: .7rem;
+        left: 0.25rem;
+        margin-left: -.51rem;
+        margin-top: -.400rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+      }
+    .period{
+        display: grid;
+        margin-left: -15px;
+    }
+    h6{
+        font-size: 5px;
+        margin-top: 20px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+        margin-top: -6px;
+    }
+    .incomeper .monthly{
+        font-size: 6px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
+    }
+    .incomeper .annualy{
+        font-size: 6px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 43px;
+        margin-top: -39px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: 14px;
+        margin-left: -75px;
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 20px;
+        width: 40px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 25px;
+        height: 25px;
+        margin-top: 20px;
+    }
+      .scroll{
+        width: 100%;
+        overflow-x: scroll;
+      }
+}
+
+@media (max-width: 376px) {
+    .tool-width{
+        margin-top: 0px;
+    }
+    .genderml{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    ::ng-deep .genderf{
+        margin-top: -36px;
+    }
+    .genderfl{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    .age p-inputNumber{
+        height: 25px;
+        width: 38px;
+        margin-left: 25px;
+    }
+    .age1{
+        margin-left: 25px;
+    }
+     .spouseAge, .age1{
+         font-size: 7px;
+     }
+     .spage p-inputNumber{
+        // width: 2rem;
+        height: 25px;
+        width: 38px;
+        margin-right: 2px;
+     }
+     ::ng-deep .date1 .p-calendar{
+        width: 50px;
+        height: 24px;
+        margin-left: 40px;
+    }
+    ::ng-deep .date .p-calendar{
+        width: 50px;
+        height: 24px;
+        margin-left: 30px;
+    }
+    ::ng-deep .p-dropdown{
+        width: 80%;
+        height: 24px;
+        margin-right: 10px;
+        margin-right: -40px;
+        font-size: 8px;
+        // padding-left: 20px;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-label.p-placeholder {
+        color: #6c757d;
+        font-size: 6px;
+      }
+    ::ng-deep .p-dropdown-panel {
+        background: #ffffff;
+        color: #495057;
+        border: 0 none;
+        border-radius: 2px;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        font-size: 7px;
+    }
+    ::ng-deep .pi {
+        font-size: .4rem;
+    }
+    ::ng-deep .p-dropdown .p-dropdown-trigger {
+        background: transparent;
+        color: #6c757d;
+        width: 3rem;
+        justify-content: start;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    ::ng-deep .p-dropdown-panel .p-dropdown-items .p-dropdown-item {
+        margin: 0;
+        padding: .2rem .5rem;
+        border: 0 none;
+        color: #495057;
+        background: transparent;
+        transition: box-shadow 0.2s;
+        border-radius: 0;
+    }
+    .cont{
+        padding-top: 30px;
+        margin-right: 50px;
+        // margin-left: 53px;
+        margin-top: 0px;
+    }
+    .contribution{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    ::ng-deep .inc1{
+        margin-top: -36px;
+    }
+    .income{
+        font-size: 7px;
+        margin-left: -4px;
+    }
+    .currency p-inputNumber{
+        width: 5rem;
+        height: 24px;
+        // margin-left: -60px;
+        margin-right: 31px;
+        margin-left: -79px;
+    }
+    .mon{
+        margin-left: -33px;
+    }
+    ::ng-deep .p-inputtext {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: .6rem;
+        color: #495057;
+        background: #ffffff;
+        padding: 0.75rem 0.75rem;
+        border: 1px solid #ced4da;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+        appearance: none;
+        border-radius: 6px;
+      }
+    ::ng-deep .p-radiobutton .p-radiobutton-box{
+        height: 8px;
+        width: 8px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider{
+        width: 1.5rem;
+        height: .7rem;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    ::ng-deep .p-inputswitch .p-inputswitch-slider:before {
+        background: #ffffff;
+        width: .7rem;
+        height: .7rem;
+        left: 0.25rem;
+        margin-left: -.51rem;
+        margin-top: -.400rem;
+        border-radius: 50%;
+        transition-duration: 0.2s;
+      }
+    .period{
+        display: grid;
+        margin-left: -15px;
+    }
+    h6{
+        font-size: 5px;
+        margin-top: 20px;
+    }
+    .incomeper{
+        padding-left: -70px;
+        // font-size: 6px;
+        margin-top: -6px;
+    }
+    .incomeper .monthly{
+        font-size: 6px;
+    }
+    .insw{
+        margin-left: -24px;
+        margin-top: -6px;
+    }
+    .incomeper .annualy{
+        font-size: 6px;
+    }
+    .inslider{
+        // margin-left: 53px;
+        // margin-top: -41px;
+        margin-left: 43px;
+        margin-top: -39px;
+    }
+    .innum{
+        // margin-left: -22px;
+        margin-top: 16px;
+        margin-left: -76px;
+    }
+    ::ng-deep .period p-inputNumber{
+        height: 20px;
+        width: 40px;
+        font-size: 7px;
+        // padding-right: 40px;
+    }
+    ::ng-deep .p-slider .p-slider-handle {
+        height: .7rem;
+        width: .7rem;
+        background: #ffffff;
+        border: 2px solid #6366F1;
+        border-radius: 50%;
+        transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+      }
+     ::ng-deep .p-slider.p-slider-horizontal .p-slider-handle {
+        margin-top: -0.3715rem;
+        margin-left: -0.4715rem;
+      }
+      ::ng-deep .p-slider.p-slider-horizontal {
+        height: 0.286rem;
+        // width: 2.5rem;
+        margin-left: -33px;
+    }
+    ::ng-deep .innum .p-inputtext{
+        width: 25px;
+        height: 25px;
+        margin-top: 20px;
+    }
+      .scroll{
+        width: 100%;
+        overflow-x: scroll;
+      }
 }
