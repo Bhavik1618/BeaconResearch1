@@ -1530,7 +1530,7 @@ p-password.p-password-clearable.p-password-mask .p-password-clear-icon {
   width: 12px;
   height: 12px;
   transition-duration: 0.2s;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
 }
 .p-radiobutton .p-radiobutton-box.p-highlight {
   border-color: #6366F1;
@@ -6231,9 +6231,12 @@ p-treeselect.p-treeselect-clearable .p-treeselect-clear-icon {
 .p-datatable .p-datatable-tbody > tr.p-datatable-dragpoint-bottom > td {
   box-shadow: inset 0 -2px 0 0 #6366F1;
 }
-p-menu.p-element > div{
+
+
+
+.p-element > div{
   z-index: 1002 !important;
   transform-origin: center top !important;
-  top: 378.359px !important;
-  left: 175.406px !important;
+  /* top: 370.359px !important;
+  left: 200.406px !important; */
 }

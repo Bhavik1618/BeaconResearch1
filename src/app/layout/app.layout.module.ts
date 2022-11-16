@@ -53,17 +53,11 @@ import {ButtonModule} from 'primeng/button';
         AppConfigModule,
         TreeDemoRoutingModule,
 		TreeModule,
-
         InputNumberModule,
         CalendarModule,
         DropdownModule,
         SliderModule,
         
-
-
-        ListboxModule,
-        DropdownModule,
-        ButtonModule
 
     ],
     exports: [AppLayoutComponent]
