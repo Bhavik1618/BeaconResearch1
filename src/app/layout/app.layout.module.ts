@@ -23,7 +23,6 @@ import { TreeModule } from 'primeng/tree';
 
 import {InputNumberModule} from 'primeng/inputnumber';
 import { CalendarModule } from "primeng/calendar";
-import { DropdownModule } from 'primeng/dropdown';
 import {SliderModule} from 'primeng/slider';
 import {ListboxModule} from 'primeng/listbox';
 import {ButtonModule} from 'primeng/button';
