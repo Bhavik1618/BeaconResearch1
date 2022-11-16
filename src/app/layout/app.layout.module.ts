@@ -26,7 +26,6 @@ import { CalendarModule } from "primeng/calendar";
 import { DropdownModule } from 'primeng/dropdown';
 import {SliderModule} from 'primeng/slider';
 import {ListboxModule} from 'primeng/listbox';
-import {DropdownModule} from 'primeng/dropdown';
 import {ButtonModule} from 'primeng/button';
 
 @NgModule({
@@ -58,7 +57,7 @@ import {ButtonModule} from 'primeng/button';
         InputNumberModule,
         CalendarModule,
         DropdownModule,
-        SliderModule
+        SliderModule,
         
 
 
