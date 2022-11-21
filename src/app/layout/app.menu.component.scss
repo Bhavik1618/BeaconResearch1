@@ -1,14 +1,25 @@
 .sidebar-menu {
-    border-top: 1px solid rgb(172, 172, 172);;
-    border-bottom: 1px solid rgb(172, 172, 172);;
-    padding: 10px 30px;
+    border-top: 1px solid rgb(172, 172, 172);
+    border-bottom: 1px solid rgb(172, 172, 172);
+    padding: 10px 0px 10px 28px;
+    font-size: 15px;
 }
 
 .sidebar-menu-data {
     border-bottom: 1px solid rgb(172, 172, 172);;
-    padding: 10px 30px;
+    padding: 10px 0px 10px 28px;
+    font-size: 15px;
 }
+.sidebar-menu-data-back {
+    border-bottom: 1px solid rgb(172, 172, 172);
+    padding: 10px 65px 9px 18px;
+    font-size: 15px;
+}
+.short-font-size{
+    font-size: 15px;
+    font-weight: bold;
 
+}
 .col-10 {
     padding: 0rem !important;
 }
@@ -48,6 +59,13 @@
     margin-bottom: 0rem !important;
 
     border-radius: 0px !important;
+    height: calc(100vh - 32rem);
+    overflow: auto;
+
+}
+
+.card::-webkit-scrollbar {
+    display: none;
 }
 
 .card-body {
@@ -73,4 +91,18 @@
 }
 .text-prime{
     color: #3b91ed;
+}
+.overflow-card{
+    overflow: auto;
+}
+
+.card-overflow{
+   
+    height: calc(100vh - 29.4rem) !important;
+    overflow: auto;
+}
+
+.shortby-overflow{
+    height: calc(100vh - 34rem);
+
 }

@@ -1,31 +1,15 @@
-<ul class="layout-menu">
-    <p-tree [value]="files1" [filter]="true" selectionMode="checkbox" (onNodeSelect)="onNodeSelect($event)" filterMode="strict"></p-tree>
-  
-
-</ul>
 <!-- <ul class="layout-menu">
-    <ng-container>
-    <li class="menu-separator p-2">Grop Name</li>
-    <li class="menu-separator p-2">Company & Product Name</li>
-    <li class="menu-separator p-2">A.M. Best Rating</li>
-    <li class="menu-separator p-2">Surrender Year</li>
-    <li class="menu-separator p-2">Rider Fee</li>
-    <li class="menu-separator p-2">Strategy Fee</li>
-     <li>Grop Name</li> 
-</ng-container>
+    <p-tree [value]="files1" [filter]="true" selectionMode="checkbox"  filterMode="strict"></p-tree>
+  
 </ul> -->
-
-
-    
-</ul> -->
-<div class="shadow-sm mb-2 bg-white rounded">
+<div class="shadow-sm mb-2 bg-white rounded pt-2">
     <div class="row align-items-center">
         <div class="col-1"><i class="bi bi-filter fa-lg"></i></div>
-        <div class="col-7">
+        <div class="col-6">
             <label class="font-bold">FILTER & SHORT</label>
         </div>
-        <div class="col-4">
-            <label>Clear filter</label>
+        <div class="col">
+            <label><u>Clear filter</u></label>
         </div>
     </div>
     <hr />
@@ -34,82 +18,69 @@
             <label class="text-muted">Pickup where you left off.</label>
         </div>
         <div class="pt-2 pb-3">
-            <button
-                pButton
-                pRipple
-                type="button"
-                label="SAVE SEARCH"
-                class="p-button-outlined p-button-secondary search-btn"
-            ></button>
+            <button pButton pRipple type="button" label="SAVE SEARCH"
+                class="p-button-outlined p-button-secondary search-btn"></button>
         </div>
     </div>
     <div class="row align-items-center">
         <div class="col-1" (click)="ontabSelect('Short by')">
             <i class="bi bi-filter-left fa-lg"></i>
         </div>
-        <div class="col-5" (click)="ontabSelect('Short by')">
+        <div class="col-4" (click)="ontabSelect('Short by')">
             <label>Short by</label>
         </div>
-        <div class="col-6">
-            <label class="text-prime">Withdrawal ammomnt</label>
+        <div class="col-6 text-center">
+            <label class="text-prime">{{ selectedShort }}</label>
         </div>
     </div>
 </div>
-    <div *ngIf="selectedtab == 'Sidebar'">
-    <ul class="layout-menu">
-        <li
-            class="menu-separator sidebar-menu row"
-            (click)="ontabSelect('Group Name')"
-        >
-            <div class="col-10"><label>Group Name</label></div>
-            <div class="col-2"><i class="pi pi-chevron-right"></i></div>
-        </li>
-        <li
-            class="menu-separator sidebar-menu-data row"
-            (click)="ontabSelect('Company & Product Name')"
-        >
-            <div class="col-10"><label>Company & Product Name</label></div>
-            <div class="col-2"><i class="pi pi-chevron-right"></i></div>
-        </li>
-        <li
-            class="menu-separator sidebar-menu-data row"
-            (click)="ontabSelect('A.M. Best Rating')"
-        >
-            <div class="col-10"><label>A.M. Best Rating</label></div>
-            <div class="col-2"><i class="pi pi-chevron-right"></i></div>
-        </li>
-        <li
-            class="menu-separator sidebar-menu-data row"
-            (click)="ontabSelect('Surrender Year')"
-        >
-            <div class="col-10"><label>Surrender Year</label></div>
-            <div class="col-2"><i class="pi pi-chevron-right"></i></div>
-        </li>
-        <li
-            class="menu-separator sidebar-menu-data row"
-            (click)="ontabSelect('Rider Fee')"
-        >
-            <div class="col-10"><label>Rider Fee</label></div>
-            <div class="col-2"><i class="pi pi-chevron-right"></i></div>
-        </li>
-        <li
-            class="menu-separator sidebar-menu-data row"
-            (click)="ontabSelect('Strategy Fee')"
-        >
-            <div class="col-10"><label>Strategy Fee</label></div>
-            <div class="col-2"><i class="pi pi-chevron-right"></i></div>
-        </li>
-        <!-- <li class="menu-separator sidebar-menu-data row" (click)="ontabSelect('Confinement Multiplier')"> -->
-        <li class="menu-separator sidebar-menu-data row">
-            <div class="col-10"><label>Confinement Multiplier</label></div>
-            <div class="col-2"><i class="pi pi-chevron-right"></i></div>
-        </li>
-    </ul>
+<div *ngIf="selectedtab == 'Sidebar'">
+    <div class="card-overflow card ">
+        <ul class="layout-menu">
+            <li class="menu-separator sidebar-menu row" (click)="ontabSelect('Group Name')">
+                <div class="col-10 font-bold"><label>Group Name</label></div>
+                <div class="col-2"><i class="pi pi-chevron-right"></i></div>
+            </li>
+            <li class="menu-separator sidebar-menu-data row" (click)="ontabSelect('Company & Product Name')">
+                <div class="col-10 font-bold">
+                    <label>Company & Product Name</label>
+                </div>
+                <div class="col-2"><i class="pi pi-chevron-right"></i></div>
+            </li>
+            <li class="menu-separator sidebar-menu-data row" (click)="ontabSelect('A.M. Best Rating')">
+                <div class="col-10 font-bold">
+                    <label>A.M. Best Rating</label>
+                </div>
+                <div class="col-2"><i class="pi pi-chevron-right"></i></div>
+            </li>
+            <li class="menu-separator sidebar-menu-data row" (click)="ontabSelect('Surrender Year')">
+                <div class="col-10 font-bold">
+                    <label>Surrender Year</label>
+                </div>
+                <div class="col-2"><i class="pi pi-chevron-right"></i></div>
+            </li>
+            <li class="menu-separator sidebar-menu-data row" (click)="ontabSelect('Rider Fee')">
+                <div class="col-10 font-bold"><label>Rider Fee</label></div>
+                <div class="col-2"><i class="pi pi-chevron-right"></i></div>
+            </li>
+            <li class="menu-separator sidebar-menu-data row" (click)="ontabSelect('Strategy Fee')">
+                <div class="col-10 font-bold"><label>Strategy Fee</label></div>
+                <div class="col-2"><i class="pi pi-chevron-right"></i></div>
+            </li>
+            <!-- <li class="menu-separator sidebar-menu-data row" (click)="ontabSelect('Confinement Multiplier')"> -->
+            <li class="menu-separator sidebar-menu-data row">
+                <div class="col-10 font-bold">
+                    <label>Confinement Multiplier</label>
+                </div>
+                <div class="col-2"><i class="pi pi-chevron-right"></i></div>
+            </li>
+        </ul>
+    </div>
 </div>
 
 <div *ngIf="selectedtab == 'Group Name'">
     <div>
-        <div class="sidebar-menu-data row " (click)="onbackClick()">
+        <div class="sidebar-menu-data-back row" (click)="onbackClick()">
             <div class="col-2"><i class="pi pi-chevron-left"></i></div>
 
             <div class="col-10">
@@ -120,17 +91,10 @@
         <div>
             <div class="card">
                 <div class="card-body">
-                    <p-listbox
-                        [options]="countries"
-                        [(ngModel)]="selectedCountries"
-                        [metaKeySelection]="false"
-                        [checkbox]="true"
-                        [filter]="true"
-                        [multiple]="true"
-                        optionLabel="name"
-                        [listStyle]="{ 'max-height': '150rem' }"
-                    >
-                        <ng-template let-country pTemplate="item">
+                    <p-listbox [options]="countries" [(ngModel)]="selectedCountries" [metaKeySelection]="false"
+                        [checkbox]="true" [filter]="true" [multiple]="true" optionLabel="name"
+                        [listStyle]="{ 'max-height': '150rem' }">
+                        <ng-template let-country pTemplate="item ">
                             <div class="country-item">
                                 <div>{{ country.name }}</div>
                             </div>
@@ -144,7 +108,7 @@
 
 <div *ngIf="selectedtab == 'Company & Product Name'">
     <div>
-        <div class="sidebar-menu-data row" (click)="onbackClick()">
+        <div class="sidebar-menu-data-back row" (click)="onbackClick()">
             <div class="col-2"><i class="pi pi-chevron-left"></i></div>
 
             <div class="col-10">
@@ -155,11 +119,7 @@
         <div>
             <div class="card">
                 <div class="card-body">
-                    <p-tree
-                        [value]="files1"
-                        selectionMode="checkbox"
-                        [filter]="true"
-                    >
+                    <p-tree [value]="files1" selectionMode="checkbox" [filter]="true">
                     </p-tree>
                 </div>
             </div>
@@ -169,7 +129,7 @@
 
 <div *ngIf="selectedtab == 'A.M. Best Rating'">
     <div>
-        <div class="sidebar-menu-data row " (click)="onbackClick()">
+        <div class="sidebar-menu-data-back row" (click)="onbackClick()">
             <div class="col-2"><i class="pi pi-chevron-left"></i></div>
 
             <div class="col-10">
@@ -180,16 +140,9 @@
         <div>
             <div class="card">
                 <div class="card-body">
-                    <p-listbox
-                        [options]="countries"
-                        [(ngModel)]="selectedCountries"
-                        [metaKeySelection]="false"
-                        [checkbox]="true"
-                        [multiple]="true"
-                        [filter]="true"
-                        optionLabel="name"
-                        [listStyle]="{ 'max-height': '150rem' }"
-                    >
+                    <p-listbox [options]="countries" [(ngModel)]="selectedCountries" [metaKeySelection]="false"
+                        [checkbox]="true" [multiple]="true" [filter]="true" optionLabel="name"
+                        [listStyle]="{ 'max-height': '150rem' }">
                         <ng-template let-country pTemplate="item">
                             <div class="country-item">
                                 <div>{{ country.name }}</div>
@@ -204,7 +157,7 @@
 
 <div *ngIf="selectedtab == 'Surrender Year'">
     <div>
-        <div class="sidebar-menu-data  row" (click)="onbackClick()">
+        <div class="sidebar-menu-data-back row" (click)="onbackClick()">
             <div class="col-2"><i class="pi pi-chevron-left"></i></div>
 
             <div class="col-10">
@@ -215,16 +168,9 @@
         <div>
             <div class="card">
                 <div class="card-body">
-                    <p-listbox
-                        [options]="countries"
-                        [(ngModel)]="selectedCountries"
-                        [metaKeySelection]="false"
-                        [checkbox]="true"
-                        [multiple]="true"
-                        [filter]="true"
-                        optionLabel="name"
-                        [listStyle]="{ 'max-height': '150rem' }"
-                    >
+                    <p-listbox [options]="countries" [(ngModel)]="selectedCountries" [metaKeySelection]="false"
+                        [checkbox]="true" [multiple]="true" [filter]="true" optionLabel="name"
+                        [listStyle]="{ 'max-height': '150rem' }">
                         <ng-template let-country pTemplate="item">
                             <div class="country-item">
                                 <div>{{ country.name }}</div>
@@ -239,7 +185,7 @@
 
 <div *ngIf="selectedtab == 'Rider Fee'">
     <div>
-        <div class="sidebar-menu-data row " (click)="onbackClick()">
+        <div class="sidebar-menu-data-back row" (click)="onbackClick()">
             <div class="col-2"><i class="pi pi-chevron-left"></i></div>
 
             <div class="col-10"><label class="font-bold">Rider Fee</label></div>
@@ -252,14 +198,8 @@
                         <label class="text-muted font-bold">Maximum Fee</label>
                     </div>
                     <div>
-                        <p-dropdown
-                            [options]="cities"
-                            [(ngModel)]="selectedCity1"
-                            placeholder="Select"
-                            optionLabel="name"
-                            [showClear]="true"
-                            [style]="{ width: '15rem' }"
-                        ></p-dropdown>
+                        <p-dropdown [options]="cities" [(ngModel)]="selectedCity1" placeholder="Select"
+                            optionLabel="name" [showClear]="true" [style]="{ width: '15rem' }"></p-dropdown>
                         <label class="font-italic drp-down">or less</label>
                     </div>
                 </div>
@@ -270,7 +210,7 @@
 
 <div *ngIf="selectedtab == 'Strategy Fee'">
     <div>
-        <div class="sidebar-menu-data row " (click)="onbackClick()">
+        <div class="sidebar-menu-data-back row" (click)="onbackClick()">
             <div class="col-2"><i class="pi pi-chevron-left"></i></div>
 
             <div class="col-10">
@@ -285,14 +225,8 @@
                         <label class="text-muted font-bold">Maximum Fee</label>
                     </div>
                     <div>
-                        <p-dropdown
-                            [options]="cities"
-                            [(ngModel)]="selectedCity1"
-                            placeholder="Select"
-                            optionLabel="name"
-                            [showClear]="true"
-                            [style]="{ width: '15rem' }"
-                        ></p-dropdown>
+                        <p-dropdown [options]="cities" [(ngModel)]="selectedCity1" placeholder="Select"
+                            optionLabel="name" [showClear]="true" [style]="{ width: '15rem' }"></p-dropdown>
                         <label class="font-italic drp-down">or less</label>
                     </div>
                 </div>
@@ -303,7 +237,7 @@
 
 <div *ngIf="selectedtab == 'Short by'">
     <div>
-        <div class="sidebar-menu-data row " (click)="onbackClick()">
+        <div class="sidebar-menu-data-back row" (click)="onbackClick()">
             <div class="col-2"><i class="pi pi-chevron-left"></i></div>
 
             <div class="col-10">
@@ -311,28 +245,18 @@
             </div>
         </div>
         <div class="p-3">
-            <div class="card">
+            <div class="shortby-overflow card">
                 <div class="card-body">
-                    <div>
-                        <label class="text-muted font-bold"></label>
-                    </div>
-                    <div
-                        *ngFor="let category of categories"
-                        class="p-field-checkbox"
-                    >
+                    <div *ngFor="let category of categories" class="p-field-checkbox">
                         <div class="row">
-                            <div class="col-8 p-2 pl-5">
-                                <label class="font-bold">{{
+                            <div class="col-8 p-2 pl-4">
+                                <label class="short-font-size">{{
                                     category.name
-                                }}</label>
+                                    }}</label>
                             </div>
-                            <div class="col-4 p-2"> 
-                                <p-radioButton
-                                    [inputId]="category.key"
-                                    name="category"
-                                    [value]="category"
-                                    [(ngModel)]="selectedCategory"
-                                ></p-radioButton>
+                            <div class="col-4 p-2 pl-6">
+                                <p-radioButton [inputId]="category.key" name="category" [value]="category"
+                                    [(ngModel)]="selectedCategory" (click)="shortby(selectedCategory)"></p-radioButton>
                             </div>
                         </div>
                     </div>

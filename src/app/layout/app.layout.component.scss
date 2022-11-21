@@ -5,3 +5,6 @@
 .card{
     border-radius: 0px !important;
 }
+.example::-webkit-scrollbar {
+    display: none;
+}
