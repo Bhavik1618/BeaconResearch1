@@ -14,3 +14,41 @@ export interface Product {
     image?: string;
     rating?: number;
 }
+
+export interface ProductDetails {
+    companyName: string;
+    data: Datum[];
+}
+
+// export interface Child {
+//     key: string;
+//     label: string;
+//     data: string;
+// }
+
+export interface Datum {
+    id: number;
+    productid: number;
+    companyName: string;
+    name: string;
+    companyid: number;
+}
+// export interface  Root
+// {
+//     datum : Datum[]
+// }
+
+
+export interface ProductDetail {
+    id: number,
+    productid: number,
+    companyName: string,
+    name: string,
+    companyid: number
+}
+
+export interface ProductChildDetail {
+    data: string,
+    key: string,
+    label: string,
+}

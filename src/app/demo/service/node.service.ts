@@ -8,6 +8,7 @@ export class NodeService {
     constructor(private http: HttpClient) { }
 
     getFiles() {
+        debugger
         return this.http.get<any>('assets/demo/data/files.json')
             .toPromise()
             .then(res => res.data as TreeNode[]);

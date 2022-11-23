@@ -10,6 +10,8 @@ import { StyleClassModule } from 'primeng/styleclass';
 import { PanelMenuModule } from 'primeng/panelmenu';
 import { DashboardsRoutingModule } from './dashboard-routing.module';
 import { InputSwitchModule } from 'primeng/inputswitch';
+import { AnimateModule } from 'primeng/animate';
+
 
 
 
@@ -24,7 +26,8 @@ import { InputSwitchModule } from 'primeng/inputswitch';
         PanelMenuModule,
         ButtonModule,
         DashboardsRoutingModule,
-        InputSwitchModule
+        InputSwitchModule,
+       
       
     ],
     declarations: [DashboardComponent]

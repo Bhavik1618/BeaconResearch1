@@ -14,7 +14,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
     checked: boolean = false;
     showmodel = false;
     items!: MenuItem[];
-
+    
     products!: Product[];
 
     chartData: any;
@@ -113,6 +113,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
         // this.items = [{
            
             this.items = [{
+                
                 label: 'Compare',
                 icon: 'bi bi-arrow-left-right',
                 command: () => {
